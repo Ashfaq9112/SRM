@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT</title>
+    <link rel="stylesheet" href="static/student.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+
+     <!--header content-->
+     <Section Id="Sidebar">
+        <Div Class="White-Label">
+        </Div>
+        <Div Id="Sidebar-Nav">
+        <Ul >
+        <Li Class=""><A Href="{{ url_for('student') }}"><I Class="Fa Fa-Dashboard"></I> Dashboard</A></Li>
+        <Li><A Href="{{ url_for('inbox') }}">INBOX</A></Li>
+        <Li><A Href="{{ url_for('result') }}"> VIEW RESULT</A></Li>
+        <Li><A Href="{{ url_for('events') }}">IMPORTANT EVENTS</A></Li>
+        <Li><A Href="{{ url_for('query') }}">QUERY</A></Li>
+        
+        </Ul>
+        </Div>
+        </Section>
+
+        <Section Id="Content">
+            <Div Id="Header">
+                <Div Class="Header-Nav">
+                    <Div Class="Menu-Button"><!--<I Class="Fa Fa-Navicon"></I>--></Div>
+                    <Div Class="Nav">
+                        <Ul>
+                            
+                            
+                           
+                            <Li Class="Nav-Profile">
+                                <Div Class="Nav-Profile-Image">
+                                    
+                                    <Div Class="Nav-Profile-Name" >
+                                        Jane Smith
+                                        21AD211
+                                    </Div>
+                                </Div>
+                            </Li>
+                        </Ul>
+                    </Div>
+                </Div>
+            </Div>
+            <Div Class="Content">
+                <Div Class="Content-Header">
+                    <H1>RESULT</H1>
+                    <P>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.</P>
+                    
+                
+            </Div>
+        </Section>
+
+
+
+
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
